@@ -1,6 +1,6 @@
 import { Route, Redirect } from 'react-router-dom';
 
-export default function PrivateRoute({ children, ...routeProps }) {
+export default function PrivateRoutes({ children, ...routeProps }) {
   const isLoggedIn = false;
   const user = isLoggedIn ? { id: 1, email: 'dan@alchemycodelab.com' } : null;
 
