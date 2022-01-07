@@ -10,4 +10,4 @@ const EntryProvider = ({ children }) => {
   );
 };
 
-export { EntryProvider };
+export default EntryProvider;
